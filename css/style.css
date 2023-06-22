@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Noto Sans KR',sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: -0.05em;
+    color: #2d2d2d;
+    box-sizing: border-box;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+ul li {
+    list-style: none;
+}
+.wrapper {
+    width: 1280px;
+    margin: 0 auto;
+}
+.clearfix {
+    display: block;
+}
+.clearfix::after {
+    display: block;
+    clear: both;
+    content: "";
+    visibility: hidden;
+    height: 0;
+}
+.news {
+    margin: 0 0 300px 0;
+}
+.news h1 {
+    color: #1d1d1d;
+    font-size: 50px;
+    font-weight: 700;
+    margin: 90px 0 35px 0;
+}
+.news h2 a {
+    display: flex;
+    justify-content: right;
+    color: #004ea2;
+    font-size: 15px;
+    margin: -90px 0 35px 0;
+}
+.news h2 a img {
+    width: 15px;
+    height: 15px;
+    margin: 3px 0 35px 0;
+}
+.news ul li {
+    float: left;
+    width: 400px;
+    margin: 0 40px 140px 0;
+}
+.news ul li:last-child {
+    margin-right: 0;
+}
+.news ul li strong {
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    color: #2d2d2d;
+    margin: 15px 0 0 0;
+}
+.news ul li p {
+    display: block;
+    margin: 15px 0 0 0;
+}
+.daejeon {
+    background-image: url(../images/back.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 610px;
+    margin: 520px 0 0 0;
+    color: #fff;
+}
+.daejeon p {
+    display: block;
+   font-size: 20px;
+   font-weight: 100;
+   padding: 140px 0 10px 0;
+}
+.daejeon h1 {
+    display: block;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: -0.10;
+    line-height: 1.1;
+}
+.daejeon ul li {
+    position: relative;
+    float: left;
+    margin: 0 20px 20px 0;
+    text-align: center;
+    left: 580px;
+    top: -150px;
+    width: 160px;
+    height: 150px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.daejeon ul li:nth-child(4),
+.daejeon ul li:nth-child(8) {
+    margin-right: 0;
+}
+.daejeon ul li:nth-child(5) {
+    clear: left;
+}
+.daejeon ul li a img {
+    margin: 40px 0 -30px 0;
+}
+.daejeon ul li p {
+    display: block;
+    margin: -110px 0 0 0;
+}
